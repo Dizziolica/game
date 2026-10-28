@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Caroline's Pixel Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="game" width="320" height="240"></canvas>
+
+  <!-- Controles de toque: só aparecem em celulares e tablets (veja o style.css) -->
+  <div id="dpad">
+    <button class="up" data-hold="ArrowUp" aria-label="Up">▲</button>
+    <button class="left" data-hold="ArrowLeft" aria-label="Left">◀</button>
+    <button class="right" data-hold="ArrowRight" aria-label="Right">▶</button>
+    <button class="down" data-hold="ArrowDown" aria-label="Down">▼</button>
+  </div>
+
+  <div id="actions">
+    <button data-tap="action" aria-label="Read or open">A</button>
+    <button data-tap="book" aria-label="Magic book">B</button>
+    <button data-tap="language" aria-label="Switch language">EN/PT</button>
+    <button data-tap="mail" aria-label="Send e-mail">@</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

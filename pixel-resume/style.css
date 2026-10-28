@@ -1,0 +1,102 @@
+/* A página inteira: sem margens, fundo escuro, tudo centralizado */
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background: #0f0f2e;
+  display: flex;
+  flex-wrap: wrap;            /* se não couber numa linha, os itens descem para a próxima */
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 12px;
+  overflow: hidden;
+  -webkit-user-select: none;  /* o dedo não seleciona texto sem querer */
+  user-select: none;
+  -webkit-touch-callout: none;
+  touch-action: manipulation; /* tira o zoom de toque duplo */
+}
+
+/* O jogo */
+canvas {
+  width: 90vmin;              /* 90% do menor lado da tela */
+  image-rendering: pixelated; /* mantém os pixels nítidos ao ampliar */
+}
+
+/* No computador, os controles de toque ficam escondidos */
+#dpad,
+#actions {
+  display: none;
+}
+
+/* ---------- Celulares e tablets: "pointer: coarse" = o dedo é o mouse ---------- */
+@media (pointer: coarse) {
+  canvas {
+    /* Cabe na largura da tela e deixa espaço embaixo para os botões */
+    width: min(96vw, calc(56vh * 1.3333));
+  }
+
+  #dpad,
+  #actions {
+    display: grid;
+    gap: 6px;
+  }
+
+  #dpad {
+    grid-template-columns: repeat(3, 56px);
+    grid-template-rows: repeat(3, 56px);
+  }
+
+  #actions {
+    grid-template-columns: repeat(2, 68px);
+    grid-template-rows: repeat(2, 68px);
+  }
+}
+
+/* Celular deitado: os botões ficam nos lados do jogo, em vez de embaixo */
+@media (pointer: coarse) and (orientation: landscape) {
+  body {
+    flex-wrap: nowrap;
+  }
+
+  canvas {
+    order: 1;                 /* o jogo fica no meio */
+    width: min(58vw, calc(88vh * 1.3333));
+  }
+
+  #dpad {
+    order: 0;                 /* a cruz fica à esquerda */
+    grid-template-columns: repeat(3, 44px);
+    grid-template-rows: repeat(3, 44px);
+  }
+
+  #actions {
+    order: 2;                 /* os botões de ação ficam à direita */
+    grid-template-columns: repeat(2, 54px);
+    grid-template-rows: repeat(2, 54px);
+  }
+}
+
+/* ---------- Os botões ---------- */
+button {
+  font: bold 16px monospace;
+  color: #ffd86b;
+  background: rgba(45, 42, 92, 0.85);
+  border: 2px solid #ff6ec7;
+  border-radius: 12px;
+  padding: 0;
+  touch-action: none;         /* o botão não rola nem dá zoom: só recebe o toque */
+}
+
+button.pressed {
+  background: #ff6ec7;        /* acende enquanto o dedo está em cima */
+  color: #0f0f2e;
+}
+
+/* Posição de cada seta na cruz (grade de 3 colunas x 3 linhas) */
+.up    { grid-column: 2; grid-row: 1; }
+.left  { grid-column: 1; grid-row: 2; }
+.right { grid-column: 3; grid-row: 2; }
+.down  { grid-column: 2; grid-row: 3; }

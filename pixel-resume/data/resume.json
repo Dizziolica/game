@@ -1,0 +1,140 @@
+{
+  "about": {
+    "title": { "en": "About me", "pt": "Sobre mim" },
+    "text": {
+      "en": "I'm a curious, dedicated person who is always learning. I like to know the products, values and team I work with inside out, so I can serve customers better and contribute to results. I'm interested in technology, pop culture, society, politics and the economy.",
+      "pt": "Sou uma pessoa curiosa, dedicada e sempre a aprender. Gosto de conhecer a fundo os produtos, os valores e a equipa onde trabalho, para atender melhor os clientes e contribuir para os resultados. Interesso-me por tecnologia, cultura pop, sociedade, política e economia."
+    }
+  },
+  "languages": {
+    "title": { "en": "Languages", "pt": "Línguas" },
+    "text": {
+      "en": "Portuguese (native). English: listening and reading B2; writing, speaking and spoken interaction A1. Spanish: reading B1.",
+      "pt": "Português (língua materna). Inglês: compreensão oral e leitura B2; escrita, produção oral e interação oral A1. Espanhol: leitura B1."
+    }
+  },
+  "contact": {
+    "title": { "en": "Contact", "pt": "Contacto" },
+    "text": {
+      "en": "Let's talk! Write to me at carololiveita.7@gmail.com",
+      "pt": "Vamos conversar? Escreve-me para carololiveira_7@proton.me"
+    }
+  },
+  "photographer": {
+    "title": { "en": "Freelance Photographer", "pt": "Fotógrafa freelancer" },
+    "text": {
+      "en": "Lisbon · Sep 2018 – Oct 2020 and Jul 2012 – Jun 2014. Photography, image editing, marketing management and print production, with direct public contact. Creating images: invitations, logos and flyers.",
+      "pt": "Lisboa · Set 2018 – Out 2020 e Jul 2012 – Jun 2014. Fotografia, tratamento de imagem, gestão de marketing e responsabilidade pela impressão, com contacto direto com o público. Criação de imagens: convites, logótipos e flyers."
+    }
+  },
+  "helpdesk": {
+    "title": { "en": "Help Desk Assistant", "pt": "Assistente de help desk" },
+    "text": {
+      "en": "My Whey Store, Almada · Jul 2014 – Jul 2018. Organizing office supplies and filing documents. Phone and in-person customer service, contact with suppliers, invoicing and basic IT support.",
+      "pt": "My Whey Store, Almada · Jul 2014 – Jul 2018. Organização do material de escritório e arquivo de documentos. Atendimento telefónico e presencial ao público, contacto com fornecedores, emissão de faturas e microinformática."
+    }
+  },
+  "preschool": {
+    "title": { "en": "Preschool Teaching Assistant", "pt": "Auxiliar de educação pré-escolar" },
+    "text": {
+      "en": "Escola Janela Verde, Sintra · Oct 2010 – Oct 2011. Leading playful and educational activities, making handcrafted themed decorations, supporting the children's well-being, and keeping the environment clean and suitable.",
+      "pt": "Escola Janela Verde, Sintra · Out 2010 – Out 2011. Promover atividades lúdicas e pedagógicas, fazer trabalhos manuais para decorações temáticas, promover o bem-estar das crianças e manter o ambiente limpo e adequado."
+    }
+  },
+  "heart_santini": {
+    "title": { "en": "Heart: Santini Cascais Baia", "pt": "Coração: Santini Cascais Baia" },
+    "text": {
+      "en": "Customer Service · Cascais · Apr 2026 – Oct 2026. Proactively identifying customer needs and offering tailored solutions. Managing service flow, payments and inventory, and making sure the right materials are on hand for operations. Teamwork focused on quality and productivity.",
+      "pt": "Atendimento ao cliente · Cascais · Abr 2026 – Out 2026. Identificar necessidades de forma proativa e propor soluções personalizadas. Gerir o fluxo de atendimento, os pagamentos e o inventário, e garantir os materiais necessários às operações. Trabalho em equipa focado em qualidade e produtividade."
+    }
+  },
+  "heart_sik": {
+    "title": { "en": "Heart: SIK Nutrition", "pt": "Coração: SIK Nutrition" },
+    "text": {
+      "en": "Sales Assistant · Lisbon · May 2021 – Mar 2026. Proactively identifying needs and offering tailored solutions to build loyalty. Handling complaints with empathy and staying calm under pressure. Managing payments and entering orders accurately in the system. Teamwork aimed at quality and productivity goals.",
+      "pt": "Assistente de vendas · Lisboa · Mai 2021 – Mar 2026. Identificar necessidades de forma proativa e propor soluções personalizadas para fidelizar clientes. Tratar reclamações com empatia, mantendo a calma sob pressão. Gerir pagamentos e registar pedidos no sistema. Trabalho em equipa orientado para metas de qualidade e produtividade."
+    }
+  },
+  "heart_armazem": {
+    "title": { "en": "Heart: Armazém do Oriente", "pt": "Coração: Armazém do Oriente" },
+    "text": {
+      "en": "Customer Service · Sintra · Oct 2018 – Apr 2020. Welcoming customers warmly and suggesting items, sizes and outfits (cross-selling). Handling exchanges, returns and small conflicts with diplomacy. Operating the register (card, cash and gift cards), issuing invoices, and opening and closing the till. Keeping the store, mirrors, counters and fitting rooms well presented.",
+      "pt": "Atendimento ao cliente · Sintra · Out 2018 – Abr 2020. Receber os clientes com simpatia e sugerir peças, tamanhos e coordenados (venda cruzada). Resolver trocas, devoluções e pequenos conflitos com diplomacia. Operar a caixa (cartão, numerário e gift cards), emitir faturas e fazer a abertura e o fecho de caixa. Manter a loja, os espelhos, os balcões e os provadores bem apresentados."
+    }
+  },
+  "heart_it": {
+    "title": { "en": "Heart: IT Technician", "pt": "Coração: Técnico em Informática" },
+    "text": {
+      "en": "Rumos, Lisbon · Jul 2018 – Nov 2018. Computer networks, hardware and software fundamentals, operating systems, information technology security, and cloud computing and virtualization fundamentals.",
+      "pt": "Rumos, Lisboa · Jul 2018 – Nov 2018. Redes de computadores, fundamentos de hardware e software, sistemas operativos, segurança em tecnologias da informação e fundamentos de cloud computing e virtualização."
+    }
+  },
+  "heart_photo": {
+    "title": { "en": "Heart: Photography Course", "pt": "Coração: Curso de Fotografia" },
+    "text": {
+      "en": "Instituto Português de Fotografia, Lisbon · Mar 2011 – Mar 2013. Composition, studio work, photography, photography and law, history of photography, digital lab, and organization and methods.",
+      "pt": "Instituto Português de Fotografia, Lisboa · Mar 2011 – Mar 2013. Composição, estúdio, fotografia, fotografia e direito, história da fotografia, laboratório digital e organização e métodos."
+    }
+  },
+  "heart_comm": {
+    "title": { "en": "Heart: Social Communication", "pt": "Coração: Comunicação Social" },
+    "text": {
+      "en": "Universidade Federal do Acre, Rio Branco, Brazil · Mar 2009 – Jul 2010. Fundamentals of journalism, radio and television, and graphic design; news writing; evolution of communication and the press; and research methods in communication.",
+      "pt": "Universidade Federal do Acre, Rio Branco, Brasil · Mar 2009 – Jul 2010. Fundamentos de jornalismo, de rádio e televisão e de design gráfico, redação jornalística, evolução da comunicação e da imprensa e métodos de pesquisa em comunicação."
+    }
+  },
+  "gem_adobe": {
+    "title": { "en": "Gem: Adobe", "pt": "Gema: Adobe" },
+    "text": {
+      "en": "Adobe: Photoshop, Illustrator, Premiere and Audition.",
+      "pt": "Adobe: Photoshop, Illustrator, Premiere e Audition."
+    }
+  },
+  "gem_sql": {
+    "title": { "en": "Gem: SQL", "pt": "Gema: SQL" },
+    "text": { "en": "SQL fundamentals.", "pt": "Fundamentos de SQL." }
+  },
+  "gem_web": {
+    "title": { "en": "Gem: Web development", "pt": "Gema: Desenvolvimento web" },
+    "text": {
+      "en": "Website development fundamentals.",
+      "pt": "Fundamentos de desenvolvimento de websites."
+    }
+  },
+  "gem_code": {
+    "title": { "en": "Gem: Python and C", "pt": "Gema: Python e C" },
+    "text": {
+      "en": "C and Python programming fundamentals.",
+      "pt": "Fundamentos de programação em C e Python."
+    }
+  },
+  "gem_shell": {
+    "title": { "en": "Gem: Shell", "pt": "Gema: Shell" },
+    "text": { "en": "Shell fundamentals.", "pt": "Fundamentos de shell." }
+  },
+  "gem_ads": {
+    "title": { "en": "Gem: Google Ads", "pt": "Gema: Google Ads" },
+    "text": { "en": "Google Ads fundamentals.", "pt": "Fundamentos de Google Ads." }
+  },
+  "gem_windows": {
+    "title": { "en": "Gem: Windows", "pt": "Gema: Windows" },
+    "text": {
+      "en": "Windows and solid computer skills from a user's perspective.",
+      "pt": "Windows e bons conhecimentos de informática na ótica do utilizador."
+    }
+  },
+  "gem_learn": {
+    "title": { "en": "Gem: Quick learner", "pt": "Gema: Aprendizagem rápida" },
+    "text": {
+      "en": "Quick to learn new software.",
+      "pt": "Facilidade em aprender novo software."
+    }
+  },
+  "gem_research": {
+    "title": { "en": "Gem: Online research", "pt": "Gema: Pesquisa online" },
+    "text": {
+      "en": "Using the internet to research and investigate.",
+      "pt": "Pesquisa e investigação na internet."
+    }
+  }
+}
